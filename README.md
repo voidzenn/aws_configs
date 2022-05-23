@@ -1,3 +1,5 @@
+### EC2 installations
+
 #### install httpd
   - sudo yum update -y
   - sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2 (dont include lamp-mariadb10.2-php7.2 if you only want php)
@@ -37,6 +39,8 @@
   - systemctl status mysqld ( optional )
 
 ---------------------------------------------------------------------------------------------------------
+### Solutions and Tips
+
 #### httpd.conf location
   - /etc/httpd/conf/httpd.conf
   
