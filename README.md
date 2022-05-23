@@ -27,7 +27,7 @@
   - sudo ln -s /usr/local/bin/composer /usr/bin/composer
   - sudo composer install  
 
-#### install composer
+#### install mysql
   - sudo yum install https://dev.mysql.com/get/mysql80-community-release-el7-5.noarch.rpm
   - ls /etc/yum.repos.d ( optional )
   - sudo yum repolist ( optional )
