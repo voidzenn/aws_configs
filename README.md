@@ -35,3 +35,10 @@
   - sudo yum -y install mysql-community-server
   - sudo systemctl enable --now mysqld
   - systemctl status mysqld ( optional )
+
+---------------------------------------------------------------------------------------------------------
+#### httpd.conf location
+  - /etc/httpd/conf/httpd.conf
+  
+#### fix permission error
+  - chmod -R 777 <folder-name>
